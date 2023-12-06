@@ -15,10 +15,9 @@
     "db:migrate:dev": "npx sequelize-cli db:migrate  --env development",
     "db:migrate:test": "npx sequelize-cli db:migrate --env test",
     "db:migrate:prod": "npx sequelize-cli db:migrate --env production",
-    "db:migrate:dev:undo": "npx sequelize-cli db:migrate :undo --env development",
-    "db:migrate:test:undo": "npx sequelize-cli db:migrate:undo --env test",
-    "db:migrate:prod:undo": "npx sequelize-cli db:migrate:undo --env production",
-
+    "db:migrate:undo:dev": "npx sequelize-cli db:migrate:undo --env development",
+    "db:migrate:undo:test": "npx sequelize-cli db:migrate:undo --env test",
+    "db:migrate:undo:prod": "npx sequelize-cli db:migrate:undo --env production",
 
     "db:migrate:undo": "npx sequelize-cli db:migrate:undo"
   },
