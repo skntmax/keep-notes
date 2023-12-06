@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "sknt987",
+    "database": "dev_keep_notes",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "sknt987",
+    "database": "test_keep_notes",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "fkdsahfusdbfjgsfhvsdfgadkfsoigfhsavfihwedwegruiqhewfub",
+    "database": "production_keep_notes",
+    "host": "13.127.219.36",
+    "dialect": "postgres"
+  }
+}
